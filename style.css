@@ -1,0 +1,324 @@
+/*CSS Reset*/
+*{
+    margin:0px;
+    padding:0px;
+}
+/*Header Styling*/
+
+h1{
+    text-align:center;
+    color:orangered;
+    font-size:54px;
+    font-family: 'Comic Sans Ms';
+    background-color:;
+    padding-bottom: 14px;
+}
+h2{
+    text-align:center;
+    color: darkgreen;
+    font-size:32px;
+    font-family: 'Sans Serif';
+    /*background-color:lightskyblue;*/
+    margin-top: 32rem
+}
+/* Navigation bar styling*/
+
+/*Navbar image styling*/
+ .img{
+    display:table-cell;
+    width:180px;
+    height:160px;
+    margin:1.6rem;
+    /*border-radius:8px;*/
+}
+
+/*Navbar Functionality*/
+#navbar{
+    display:inline-block;
+    /*flex-direction: column;*/
+    background-color: red;
+    height: 5.rem;
+    width: 100%;
+    font-family: 'Consolas';
+    font-size: 28px;
+    /*margin-top:10px;*/
+   /*border: 4px solid black;*/
+   /*border-radius:15px;*/
+}
+
+
+/*Navbar content functionality*/
+#navcontent{
+    display: flex;
+    /*justify-content: center;*/
+}
+
+
+/*Navbar content styling*/
+	ul {
+        /*margin-top: .5rem;*/
+		display: inline-flex;
+		padding: 0px;
+		float: right;
+		transition: .4s;
+		/*margin-bottom: 4rem;*/
+        font-size: 1.1rem;
+        list-style-type: none;
+	}
+	ul li {
+		/*text-decoration: none;*/
+        /*margin-left: 10;*/
+        /*margin-right: 10;*/
+        padding: 1.5rem;
+	}
+	ul li:hover {
+		background-color: ghostwhite;
+	}
+    #navbar ul a{
+        text-decoration: none;
+        color: georgian;
+    }
+
+/* website background image designing */
+#container1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*width: 100vw;*/
+    /*height:63vh;*/
+}
+
+/*Setting the background image using before pseudo selector 
+#container1::before{
+    content:'';
+    background: url("./1.jpg") no-repeat center center/cover;
+    width: 100vw;
+    height:59vh;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-right:45px;
+    font-weight: bold;
+    z-index: -1;
+    opacity: 0.89;
+    border: 2px solid black;
+    border-bottom-left-radius: 100px;
+}*/
+
+#row1{
+   color: sienna;
+    font-weight:bold;
+    font-size: 40px;
+    text-align: center;
+    /*margin-top: 35px;*/
+    margin-top: 1rem;
+}
+/*Button Styling*/
+/*.btn{*/
+    /*margin-top:15px;*/
+    /*border: 4px;*/
+    /*border-radius:14px;*/
+    /*background-color:yellow;*/
+    /*font-size:20px;*/
+    /*color: red;*/
+    /*font-family: 'Consolas';*/
+/*}*/
+/*.btn:hover{*/
+    /*cursor: pointer;*/
+    /*background-color: indianred;*/
+    /*padding: 5px;*/
+/*}*/
+
+
+#container3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.k1{
+    width: 24vw;
+    height: 21vh;
+    margin-top: 80rem;
+    margin-bottom: 51px;
+    position: absolute;
+    margin-right: 42rem;
+    border-radius: 40px;
+}
+
+.h4 {
+    width: 62rem;
+    height: 21vh;
+    margin-top: -58rem;
+    margin-bottom: 51px;
+    position: absolute;
+    margin-right: 37rem;
+    border-radius: 0;
+    background: transparent;
+}
+/*#row2::before{
+    content: '';
+    background: url('2.jpeg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    width: 24vw;
+    height:21vh;
+    z-index: -1;
+    border-radius: 40px;
+}*/
+#row3{
+    position: relative;
+    width: 24vw;
+    height:21vh;
+    display: flex;
+    justify-content: center;
+     align-items: flex-end;
+     /*box-shadow: 2px 7px 16px 19px;*/
+     margin-top:51px;
+     margin-bottom: 51px;
+     
+     margin-left: 38px;
+     border-radius: 40px;
+}
+#row3::before{
+    content: '';
+    background: url('3.jpeg') no-repeat center center/cover;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 24vw;
+    height:21vh;
+    z-index: -1;
+    border-radius: 40px;
+}
+
+#top3{
+    text-align: center;
+    color:red;
+    font-family: 'Comic Sans Ms';
+}
+#container4{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    margin: 41px;
+}  
+#row4{
+    width: 29vw;
+    height: 360px;
+    border: 2px solid black;
+    background:url('a1.jpeg') no-repeat center center/cover; 
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+#row5{
+    width: 29vw;
+    height: 360px;
+    border: 2px solid black;
+    background:url('a2.jpeg') no-repeat center center/cover;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+#row6{
+    width: 30vw;
+    height: 360px;
+    border: 2px solid black;
+    background:url('a3.jpeg') no-repeat center center/cover;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+}
+/*Designing the footer*/
+footer{
+    text-align: center;
+}
+/*Designing of Contact Us*/
+#ContactUs{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#fb9d1b;
+}
+.form-shape input, .form-shape select, .form-shape textarea{
+   width: 92%;
+   padding: 0.5rem;
+   border-radius: 7px;
+   border: solid 1.5px
+   
+}
+/*Changing the color of placeholder*/
+::placeholder{                  
+    color:gray;
+}
+/*Making the webpage responsive using media queries*/
+@media only screen and (max-width:1131px){
+    #row4{
+        width: 42vw;
+    }
+    #row5{
+        width:45vw;
+    }
+    #row6{
+        margin-top: 20px;
+        width:90vw;
+    }
+}
+@media only screen and (min-width:600px) and (max-width:781px)
+{
+    #row4{
+        width:84vw;
+        margin: auto;
+        margin-left: 22px;
+    }
+    #row5{
+        
+        width:84vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 22px;
+    }
+    #row6{
+        width:84vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 22px;
+    }
+}
+@media only screen and (max-width:600px){
+    #row4{
+        width:78vw;
+        margin: auto;
+        margin-left: 3px;
+    }
+    #row5{
+        
+        width:78vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 3px;
+    }
+    #row6{
+        width:78vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 3px;
+    }
+}
+@media only screen and (min-height:1000px){
+    #navbar{
+        height:10vh;
+    }
+    #container1::before{
+        height:39vh;
+    }
+    #container1{
+        height:44vh
+    }
+}
